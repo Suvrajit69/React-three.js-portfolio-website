@@ -4,9 +4,9 @@ import emailjs from "@emailjs/browser";
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
-import { SectionWrapper } from "../hoc";
+import { SectionWrapper } from "../HOC";
 import { slideIn } from "../utils/motion";
-import { e } from "maath/dist/index-43782085.esm";
+// import { e } from "maath/dist/index-43782085.esm";
 
 const Contact = () => {
   const formRef = useRef();

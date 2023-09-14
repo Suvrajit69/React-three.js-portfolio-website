@@ -1,9 +1,10 @@
-import logo from "./logo.svg";
+import me from "./me.jpg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import liveLink from "./link.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -16,6 +17,7 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
+import nextjs from "./tech/nextjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
@@ -29,14 +31,18 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import crypto from "./crypto.png";
+import promptopia from "./promptopia.png";
+
 
 export {
-  logo,
+  me,
   backend,
   creator,
   mobile,
   web,
   github,
+  liveLink,
   menu,
   close,
   css,
@@ -48,6 +54,7 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  nextjs,
   redux,
   tailwind,
   typescript,
@@ -59,4 +66,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  crypto,
+  promptopia
 };

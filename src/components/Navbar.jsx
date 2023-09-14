@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import {  menu, close, me } from "../assets";
+
 
 export const Navbar = () => {
   const [active, setActive] = useState("");
@@ -22,7 +23,7 @@ export const Navbar = () => {
             window.scroll(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 object-contain h-9" />
+          <img src={me} alt="logo" className="w-9 object-contain h-9" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex flex-row">
             Suvrajit&nbsp;<span className="sm:block hidden">| Suvrajit Mondal</span>
           </p>
@@ -62,7 +63,7 @@ export const Navbar = () => {
                   } hover:text-white text-[17px] font-medium cursor-pointer`}
                   onClick={() => {setActive(link.title), setToggle(!toggle)}}
                 >
-                  <Link to={`#${link.id}`}>{link.title}</Link>
+                  <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               ))}
             </ul>
